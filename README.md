@@ -60,7 +60,7 @@ O **UniTask** é uma plataforma SaaS completa de produtividade acadêmica desenv
 9. **Autenticação e Persistência**:
    - Suporte nativo a **Supabase** (Auth + Banco de Dados PostgreSQL com políticas RLS por usuário).
    - **Fallback automático para Modo Local**: funciona 100% offline via LocalStorage sem precisar configurar backend externo.
-   - **Modo Demonstração em 1 clique**: carrega matérias e tarefas universitárias realistas com datas calculadas dinamicamente em relação a hoje (ideal para apresentações em sala de aula).
+   - **Conta de Demonstração em 1 clique**: carrega matérias e tarefas universitárias realistas com datas calculadas dinamicamente em relação a hoje para explorar todas as funcionalidades do sistema.
 
 ---
 

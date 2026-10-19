@@ -114,7 +114,7 @@ export const LoginPage: React.FC = () => {
           <div className="relative flex items-center justify-center">
             <div className="border-t border-slate-200 dark:border-slate-800 w-full" />
             <span className="bg-white dark:bg-slate-900 px-3 text-[11px] font-semibold text-slate-400 uppercase tracking-wider">
-              ou para avaliação
+              ou
             </span>
           </div>
 
@@ -122,10 +122,10 @@ export const LoginPage: React.FC = () => {
           <button
             type="button"
             onClick={handleDemoAccess}
-            className="w-full py-2.5 px-4 rounded-xl border border-amber-300 dark:border-amber-800 bg-amber-50/60 dark:bg-amber-950/30 hover:bg-amber-100/60 text-amber-900 dark:text-amber-300 font-semibold text-xs flex items-center justify-center gap-2 transition-all cursor-pointer shadow-xs"
+            className="w-full py-2.5 px-4 rounded-xl border border-blue-200 dark:border-blue-900/60 bg-blue-50/60 dark:bg-blue-950/30 hover:bg-blue-100/60 text-blue-800 dark:text-blue-300 font-semibold text-xs flex items-center justify-center gap-2 transition-all cursor-pointer shadow-xs"
           >
-            <Sparkles className="w-4 h-4 text-amber-600 dark:text-amber-400" />
-            Acessar Modo Demonstração (Apresentação em Aula)
+            <Sparkles className="w-4 h-4 text-blue-600 dark:text-blue-400" />
+            Explorar com Conta de Demonstração
           </button>
 
           {/* Registration link */}

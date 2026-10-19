@@ -349,9 +349,9 @@ export const SettingsPage: React.FC = () => {
           loadDemoData();
           setShowDemoConfirm(false);
         }}
-        title="Carregar Dados de Demonstração"
-        message="Deseja repovoar o sistema com disciplinas, tarefas e notas simuladas para apresentação acadêmica? Seus dados atuais serão substituídos pelo modelo."
-        confirmLabel="Sim, carregar demo"
+        title="Carregar Dados de Exemplo"
+        message="Deseja repovoar o sistema com disciplinas e tarefas de exemplo? Seus dados atuais serão substituídos pelo modelo inicial."
+        confirmLabel="Sim, carregar dados"
         isDangerous={false}
       />
 
