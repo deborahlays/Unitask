@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { ThemeProvider } from './context/ThemeContext';
 import { ToastProvider } from './context/ToastContext';
 import { AuthProvider, useAuth } from './context/AuthContext';
@@ -61,7 +61,7 @@ export const App: React.FC = () => {
       <ToastProvider>
         <AuthProvider>
           <DataProvider>
-            <BrowserRouter>
+            <HashRouter>
               <Routes>
                 {/* Public Auth Routes */}
                 <Route
@@ -102,7 +102,7 @@ export const App: React.FC = () => {
                 {/* Catch-all */}
                 <Route path="*" element={<Navigate to="/" replace />} />
               </Routes>
-            </BrowserRouter>
+            </HashRouter>
           </DataProvider>
         </AuthProvider>
       </ToastProvider>
