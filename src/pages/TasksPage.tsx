@@ -6,8 +6,8 @@ import { TaskFilters, TaskFilterState } from '../components/tasks/TaskFilters';
 import { TaskItem } from '../components/tasks/TaskItem';
 import { TaskCard } from '../components/tasks/TaskCard';
 import { TaskFormModal } from '../components/tasks/TaskFormModal';
-import { EmptyState } from '../common/EmptyState';
-import { Button } from '../common/Button';
+import { EmptyState } from '../components/common/EmptyState';
+import { Button } from '../components/common/Button';
 import { Plus, CheckSquare, Search } from 'lucide-react';
 
 export const TasksPage: React.FC = () => {

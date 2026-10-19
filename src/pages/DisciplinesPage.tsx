@@ -3,8 +3,8 @@ import { useData } from '../context/DataContext';
 import { Discipline } from '../types';
 import { DisciplineCard } from '../components/disciplines/DisciplineCard';
 import { DisciplineFormModal } from '../components/disciplines/DisciplineFormModal';
-import { EmptyState } from '../common/EmptyState';
-import { Button } from '../common/Button';
+import { EmptyState } from '../components/common/EmptyState';
+import { Button } from '../components/common/Button';
 import { BookOpen, Plus } from 'lucide-react';
 
 export const DisciplinesPage: React.FC = () => {

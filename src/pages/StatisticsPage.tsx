@@ -24,7 +24,7 @@ import {
   PieChart as PieIcon,
   BookOpen,
 } from 'lucide-react';
-import { EmptyState } from '../common/EmptyState';
+import { EmptyState } from '../components/common/EmptyState';
 import { useNavigate } from 'react-router-dom';
 
 export const StatisticsPage: React.FC = () => {

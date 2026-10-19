@@ -5,8 +5,8 @@ import { Task, Discipline } from '../types';
 import { TaskItem } from '../components/tasks/TaskItem';
 import { TaskFormModal } from '../components/tasks/TaskFormModal';
 import { DisciplineFormModal } from '../components/disciplines/DisciplineFormModal';
-import { EmptyState } from '../common/EmptyState';
-import { Button } from '../common/Button';
+import { EmptyState } from '../components/common/EmptyState';
+import { Button } from '../components/common/Button';
 import { hexToRgba } from '../lib/utils';
 import {
   ArrowLeft,
